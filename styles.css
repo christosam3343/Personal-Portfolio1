@@ -247,27 +247,6 @@ a {
   gap: 1rem;
 }
 
-.headshot-card {
-  padding: 0.85rem;
-  border-radius: var(--radius-lg);
-  border: 1px solid var(--line);
-  background: rgba(9, 17, 29, 0.78);
-  box-shadow: var(--shadow);
-}
-
-[data-theme="light"] .headshot-card {
-  background: rgba(255, 255, 255, 0.78);
-}
-
-.headshot-image {
-  display: block;
-  width: 100%;
-  aspect-ratio: 4 / 4.6;
-  object-fit: cover;
-  object-position: center 18%;
-  border-radius: calc(var(--radius-lg) - 8px);
-}
-
 .panel-card {
   padding: 1.5rem;
   border-radius: var(--radius-md);
