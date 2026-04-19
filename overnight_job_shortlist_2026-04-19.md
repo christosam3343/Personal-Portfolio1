@@ -6,6 +6,7 @@ Prepared on April 19, 2026 for Christo Thomas.
 - Several earlier direct links appear to be stale or pulled, even though they still showed in search results.
 - The roles below are rebuilt from career pages that currently appear active in employer-hosted boards or application pages.
 - A better discovery pattern for CPT/OPT-friendly roles is university career portals and Indeed-style aggregators, but those leads still need employer-side verification before applying.
+- ZURU, ALO, and Double Good were re-checked against live application pages and appear active as of April 19, 2026.
 
 ### Strong-fit roles
 
@@ -33,6 +34,7 @@ Prepared on April 19, 2026 for Christo Thomas.
   - Beverly Hills, California
   - Internship runs June 8, 2026 to July 31, 2026
   - 40 hours per week, on-site at HQ
+  - Application page asks whether the candidate can accept a full-time position immediately after the internship
 - Tailoring angle:
   - Stress KPIs, dashboards, and business-facing reporting
   - Mention marketing, product, and retail insights interest
@@ -78,6 +80,20 @@ Prepared on April 19, 2026 for Christo Thomas.
 - Tailoring angle:
   - Highlight analytical writing, data interpretation, and structured reporting
 
+#### 6. IntegraFEC - (Summer) Data Analyst Intern
+- Link: https://job-boards.greenhouse.io/integrainterns/jobs/4896455008
+- Why it fits:
+  - Direct data analyst internship title
+  - Strong match for SQL, Python, Excel, and analytical problem-solving
+  - Employer application page appears active
+- Source notes:
+  - Austin, Texas
+  - Quantitative and forensic analytics focus
+  - Welcomes bachelor's, master's, and Ph.D. students
+- Tailoring angle:
+  - Highlight SQL analysis, dashboard reporting, and structured investigation skills
+  - Position the sales project as evidence of analytical query writing and business insight generation
+
 ### CPT and application notes
 - CPT approval depends on your school and the employer's work setup, so "work authorized in the U.S." language is important to read carefully.
 - The strongest near-term targets from this live-only pass are:
@@ -85,13 +101,25 @@ Prepared on April 19, 2026 for Christo Thomas.
   - ALO Data Analyst Intern
   - Double Good Data Analyst Intern
   - SupplyHouse.com Loyalty Marketing Analytics Intern
+- The most clearly live roles right now are ZURU, ALO, Double Good, and IntegraFEC because their application pages are currently accessible.
 - SupplyHouse.com explicitly says they will not sponsor work visas, so that one may or may not work depending on how they interpret CPT.
+- ALO may be a weaker fit for internship eligibility because its application asks whether the candidate can move directly into a full-time role after the internship.
 
 ### Explicit blockers found
 - Red Ventures - 2026 Launch Program: Business Analyst Intern
   - Link: https://boards.greenhouse.io/embed/job_app?token=7242879
   - Why excluded:
     - The listing explicitly says it is not open to visa sponsorship or transfer of visa sponsorship, including candidates on F-1, OPT, STEM-OPT, or TN visa.
+
+- Toshiba Global Commerce Solutions - Data Analytics Intern
+  - Link: https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5059322007
+  - Why excluded:
+    - The live listing explicitly says no visa sponsorship now or in the future.
+
+- IntegraFEC - (Summer) Data Analyst Intern
+  - Link: https://job-boards.greenhouse.io/integrainterns/jobs/4896455008
+  - Why likely blocked:
+    - The application says applicants must be authorized to work for any employer in the U.S. and that the company is unable to sponsor or take over visa sponsorship at this time.
 
 ### Additional leads to verify from student-focused boards
 - Safran - Intern, Data Analyst

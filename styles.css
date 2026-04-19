@@ -68,6 +68,44 @@ body::before {
   animation: ambientShift 18s ease-in-out infinite alternate;
 }
 
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.18;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), transparent 78%);
+}
+
+[data-theme="light"] body::after {
+  opacity: 0.14;
+  background-image:
+    linear-gradient(rgba(23, 33, 43, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(23, 33, 43, 0.05) 1px, transparent 1px);
+}
+
+.scroll-progress {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: 40;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(8px);
+}
+
+.scroll-progress-bar {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, var(--accent), #5fb2ff 72%, #9bf2ff);
+  box-shadow: 0 0 20px rgba(95, 178, 255, 0.35);
+  transition: width 90ms linear;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -464,14 +502,98 @@ a {
 
 .timeline {
   display: grid;
-  gap: 1rem;
+  gap: 1.2rem;
+  position: relative;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  top: 0.8rem;
+  bottom: 0.8rem;
+  width: 2px;
+  background: linear-gradient(180deg, rgba(255, 138, 91, 0.55), rgba(95, 178, 255, 0.18));
+  opacity: 0.9;
 }
 
 .timeline-item {
   display: grid;
-  grid-template-columns: 0.82fr 1.18fr;
+  grid-template-columns: auto 0.78fr 1.22fr;
   gap: 1.5rem;
   padding: 1.8rem;
+  align-items: start;
+  position: relative;
+}
+
+.timeline-node {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  width: 2rem;
+  padding-top: 0.4rem;
+}
+
+.timeline-dot {
+  width: 0.95rem;
+  height: 0.95rem;
+  border-radius: 999px;
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  background: linear-gradient(135deg, var(--accent), #5fb2ff);
+  box-shadow: 0 0 0 0.28rem rgba(255, 138, 91, 0.12);
+}
+
+.timeline-meta {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.timeline-badge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin: 0;
+  padding: 0.36rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--accent-deep);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.68rem;
+  font-weight: 700;
+}
+
+[data-theme="light"] .timeline-badge {
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.timeline-submeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.timeline-date,
+.timeline-location,
+.education-date {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2rem;
+  padding: 0.38rem 0.72rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+[data-theme="light"] .timeline-date,
+[data-theme="light"] .timeline-location,
+[data-theme="light"] .education-date {
+  background: rgba(255, 255, 255, 0.74);
 }
 
 .timeline-role,
@@ -483,10 +605,9 @@ a {
 
 .timeline-company,
 .education-school,
-.education-date,
-.timeline-date {
+.education-school {
   color: var(--muted);
-  margin: 0.4rem 0 0;
+  margin: 0;
 }
 
 .timeline-body p,
@@ -675,6 +796,19 @@ a {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.education-timeline {
+  gap: 1rem;
+}
+
+.education-item .timeline-body {
+  display: flex;
+  align-items: center;
+}
+
+.education-body p {
+  margin: 0;
+}
+
 .contact-section {
   grid-template-columns: 1.1fr 0.9fr;
   align-items: start;
@@ -848,5 +982,19 @@ a {
 
   .hero h1 {
     max-width: none;
+  }
+
+  .timeline::before {
+    left: 0.85rem;
+  }
+
+  .timeline-item {
+    grid-template-columns: auto 1fr;
+    gap: 1rem;
+  }
+
+  .timeline-meta,
+  .timeline-body {
+    grid-column: 2;
   }
 }

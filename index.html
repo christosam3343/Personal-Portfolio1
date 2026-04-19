@@ -25,6 +25,9 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="scroll-progress" aria-hidden="true">
+    <span class="scroll-progress-bar" id="scroll-progress-bar"></span>
+  </div>
   <div class="site-shell">
     <header class="hero" id="top">
       <nav class="nav">
@@ -126,10 +129,17 @@
         </div>
         <div class="timeline">
           <article class="timeline-item">
+            <div class="timeline-node" aria-hidden="true">
+              <span class="timeline-dot"></span>
+            </div>
             <div class="timeline-meta">
+              <p class="timeline-badge">Current Role</p>
               <p class="timeline-role">Marketing Intern</p>
               <p class="timeline-company">Sodexo, University of New Haven</p>
-              <p class="timeline-date">Aug 2025 - Present</p>
+              <div class="timeline-submeta">
+                <span class="timeline-date">Aug 2025 - Present</span>
+                <span class="timeline-location">West Haven, CT</span>
+              </div>
             </div>
             <div class="timeline-body">
               <p>Support campus promotions and improve visibility across digital displays.</p>
@@ -142,10 +152,17 @@
           </article>
 
           <article class="timeline-item">
+            <div class="timeline-node" aria-hidden="true">
+              <span class="timeline-dot"></span>
+            </div>
             <div class="timeline-meta">
+              <p class="timeline-badge">Technical Operations</p>
               <p class="timeline-role">Master Control Operator Intern</p>
               <p class="timeline-company">SportsMax</p>
-              <p class="timeline-date">May 2024 - Aug 2024</p>
+              <div class="timeline-submeta">
+                <span class="timeline-date">May 2024 - Aug 2024</span>
+                <span class="timeline-location">Kingston, Jamaica</span>
+              </div>
             </div>
             <div class="timeline-body">
               <p>Maintained broadcast continuity in a fast-moving technical environment.</p>
@@ -265,16 +282,40 @@
           <p class="eyebrow">Education</p>
           <h2>Learning with purpose</h2>
         </div>
-        <div class="education-grid">
-          <article class="card">
-            <p class="education-degree">Master of Science in Computer Science</p>
-            <p class="education-school">University of New Haven</p>
-            <p class="education-date">January 2025 - Present</p>
+        <div class="timeline education-timeline">
+          <article class="timeline-item education-item">
+            <div class="timeline-node" aria-hidden="true">
+              <span class="timeline-dot"></span>
+            </div>
+            <div class="timeline-meta">
+              <p class="timeline-badge">Graduate Study</p>
+              <p class="education-degree">Master of Science in Computer Science</p>
+              <p class="education-school">University of New Haven</p>
+              <div class="timeline-submeta">
+                <span class="education-date">January 2025 - Present</span>
+                <span class="timeline-location">West Haven, CT</span>
+              </div>
+            </div>
+            <div class="timeline-body education-body">
+              <p>Focused on software development, technical problem-solving, and expanding practical experience through projects and internships.</p>
+            </div>
           </article>
-          <article class="card">
-            <p class="education-degree">Bachelor of Science in Computing</p>
-            <p class="education-school">University of Technology, Jamaica</p>
-            <p class="education-date">January 2021 - May 2024</p>
+          <article class="timeline-item education-item">
+            <div class="timeline-node" aria-hidden="true">
+              <span class="timeline-dot"></span>
+            </div>
+            <div class="timeline-meta">
+              <p class="timeline-badge">Undergraduate</p>
+              <p class="education-degree">Bachelor of Science in Computing</p>
+              <p class="education-school">University of Technology, Jamaica</p>
+              <div class="timeline-submeta">
+                <span class="education-date">January 2021 - May 2024</span>
+                <span class="timeline-location">Kingston, Jamaica</span>
+              </div>
+            </div>
+            <div class="timeline-body education-body">
+              <p>Built the academic foundation behind my current work in programming, web development, data analysis, and systems thinking.</p>
+            </div>
           </article>
         </div>
       </section>
