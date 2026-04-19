@@ -24,22 +24,6 @@ document.querySelectorAll(".reveal").forEach((section, index) => {
   section.style.setProperty("--reveal-delay", `${index * 70}ms`);
 });
 
-const scrollProgressBar = document.getElementById("scroll-progress-bar");
-
-function updateScrollProgress() {
-  if (!scrollProgressBar) {
-    return;
-  }
-
-  const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
-  const progress = scrollableHeight > 0 ? (window.scrollY / scrollableHeight) * 100 : 0;
-  scrollProgressBar.style.width = `${Math.min(100, Math.max(0, progress))}%`;
-}
-
-updateScrollProgress();
-window.addEventListener("scroll", updateScrollProgress, { passive: true });
-window.addEventListener("resize", updateScrollProgress);
-
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
