@@ -518,6 +518,12 @@ a {
 .project-card {
   position: relative;
   isolation: isolate;
+  display: grid;
+  gap: 1rem;
+  min-height: 100%;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.02), transparent),
+    var(--surface);
 }
 
 .project-card::after {
@@ -536,19 +542,132 @@ a {
   transform: scaleX(1);
 }
 
+.project-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.project-metric {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.42rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+[data-theme="light"] .project-metric {
+  background: rgba(255, 255, 255, 0.72);
+}
+
 .project-tag {
   color: var(--accent-deep);
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.75rem;
   font-weight: 700;
-  margin: 0 0 0.8rem;
+  margin: 0;
 }
 
 .project-card h3,
 .skill-card h3 {
   margin-bottom: 0.8rem;
   font-size: 1.35rem;
+}
+
+.project-summary {
+  margin: 0;
+}
+
+.project-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.project-stack span {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.42rem 0.72rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+[data-theme="light"] .project-stack span {
+  background: rgba(255, 255, 255, 0.74);
+}
+
+.project-details {
+  display: grid;
+  gap: 0.9rem;
+  padding-top: 0.2rem;
+}
+
+.project-details > div {
+  padding-top: 0.85rem;
+  border-top: 1px solid var(--line);
+}
+
+.project-details p {
+  margin: 0;
+}
+
+.project-label {
+  margin-bottom: 0.35rem !important;
+  color: var(--accent-deep);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: auto;
+  padding-top: 0.35rem;
+}
+
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.6rem;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  font-size: 0.88rem;
+  font-weight: 700;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease, box-shadow 180ms ease;
+}
+
+[data-theme="light"] .project-link {
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.project-link:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 138, 91, 0.3);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.project-link-primary {
+  background: linear-gradient(135deg, #ff8a5b, #ffb38f);
+  color: #09111d;
+  border-color: transparent;
 }
 
 .education-grid,
