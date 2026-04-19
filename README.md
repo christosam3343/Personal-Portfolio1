@@ -27,4 +27,6 @@ Open `index.html` in a browser.
 
 ## Before publishing
 
+- Add your real LinkedIn URL
+- Add your real GitHub URL
 - Replace any wording you want to personalize further
