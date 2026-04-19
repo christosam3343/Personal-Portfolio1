@@ -20,9 +20,15 @@ if (themeToggle && themeToggleText) {
 
   themeToggle.addEventListener("click", () => {
     const nextTheme = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+    body.classList.add("theme-transitioning");
+
     root.setAttribute("data-theme", nextTheme);
     localStorage.setItem("portfolio-theme", nextTheme);
     updateThemeToggleLabel(nextTheme);
+
+    window.setTimeout(() => {
+      body.classList.remove("theme-transitioning");
+    }, 360);
   });
 }
 
