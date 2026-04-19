@@ -20,8 +20,8 @@
   --surface-strong: #fffdf9;
   --text: #17212b;
   --muted: #5f6773;
-  --accent: #d95d39;
-  --accent-deep: #9f3417;
+  --accent: #3f7cff;
+  --accent-deep: #1f56c9;
   --line: rgba(23, 33, 43, 0.08);
   --shadow: 0 20px 60px rgba(28, 34, 42, 0.12);
 }
@@ -56,7 +56,7 @@ body {
 }
 
 [data-active-section="projects"] {
-  --accent: #5fb2ff;
+  --accent: #ff8a5b;
 }
 
 [data-active-section="education"] {
