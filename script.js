@@ -20,6 +20,10 @@ if (themeToggle && themeToggleText) {
   });
 }
 
+document.querySelectorAll(".reveal").forEach((section, index) => {
+  section.style.setProperty("--reveal-delay", `${index * 70}ms`);
+});
+
 const observer = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
