@@ -2,104 +2,142 @@
 
 Prepared on April 19, 2026 for Christo Thomas.
 
+### Status update
+- Several earlier direct links appear to be stale or pulled, even though they still showed in search results.
+- The roles below are rebuilt from career pages that currently appear active in employer-hosted boards or application pages.
+- A better discovery pattern for CPT/OPT-friendly roles is university career portals and Indeed-style aggregators, but those leads still need employer-side verification before applying.
+
 ### Strong-fit roles
 
-#### 1. CareSource - 2026 Summer Internship - Health Plan Data Analyst
-- Link: https://careers.caresource.com/search/jobdetails/2026-summer-internship---health-plan-data-analyst/cf5b25aa-beb1-47da-b03b-7689db7058bc
+#### 1. ZURU - Data Analyst Intern
+- Link: https://jobs.lever.co/zuru/7cd43f13-6ee0-4f74-8d59-d6571a353848
 - Why it fits:
   - Direct data analyst title
-  - Paid 12-week internship program
-  - CareSource notes flexibility for on-site, hybrid, and remote opportunities across the program
-  - Good match for Excel, SQL, Python, dashboards, and communication
+  - Strong match for SQL, Python, data visualization, and analytical thinking
+  - Employer career board and application page both appear active
 - Source notes:
-  - Posted January 12, 2026
-  - Req. Number: R11621
+  - Los Angeles, California
+  - On-site internship
+  - Pay listed as $20 to $25 per hour
 - Tailoring angle:
-  - Lead with the Sales Performance Dashboard project
-  - Emphasize KPI building, trend reporting, and data storytelling
+  - Lead with dashboard work, SQL, and Python
+  - Emphasize trend analysis and working with large datasets
 
-#### 2. CareSource - 2026 Summer Internship - Business Intelligence & Data Management
-- Link: https://careers.caresource.com/search/jobdetails/2026-summer-internship---business-intelligence--data-management/e5ffea77-9bcd-4523-a983-9ad048570d66
+#### 2. ALO - Data Analyst Intern
+- Link: https://job-boards.greenhouse.io/aloyoga/jobs/5789964004
 - Why it fits:
-  - Strong analytics and visualization alignment
-  - Good fit for Excel, reporting, and SQL/Python growth potential
-  - Internship program includes mentor support and potential remote flexibility
+  - Direct analyst title with dashboard and reporting work
+  - Good fit for business storytelling through data
+  - Employer application page appears active
 - Source notes:
-  - Posted October 20, 2025
-  - Req. Number: R10692
+  - Beverly Hills, California
+  - Internship runs June 8, 2026 to July 31, 2026
+  - 40 hours per week, on-site at HQ
 - Tailoring angle:
-  - Stress comfort with organizing data, presenting findings, and dashboard-style outputs
+  - Stress KPIs, dashboards, and business-facing reporting
+  - Mention marketing, product, and retail insights interest
 
-#### 3. CareSource - 2026 Summer Internship - Data Science
-- Link: https://careers.caresource.com/search/jobdetails/2026-summer-internship---data-science/7754c9e0-cae5-49fc-9f7f-573cf19d998e
+#### 3. Double Good - Data Analyst Intern (Summer 2026)
+- Link: https://job-boards.greenhouse.io/doublegood/jobs/5832697004
 - Why it fits:
-  - Strong overlap with CS master's study
-  - Uses descriptive and predictive analysis plus visualizations
-  - Good fallback if analyst-specific roles are limited
+  - Direct analyst internship on a Data & Analytics team
+  - Great match for SQL, reporting, and business analysis
+  - Employer application page appears active
 - Source notes:
-  - Posted October 15, 2025
-  - Req. Number: R10679
+  - Chicago, Illinois
+  - On-site 10-week internship
+  - Work includes Snowflake, SQL, and Looker reporting
 - Tailoring angle:
-  - Position the Academic Probation System as an analytics/automation project
-  - Emphasize Python, problem-solving, and interpreting findings
+  - Highlight SQL readiness and dashboard/reporting project experience
+  - Emphasize clean communication of findings
 
-#### 4. Veeam - Business Analyst Intern - Summer 2026
-- Link: https://boards.greenhouse.io/embed/job_app?token=4650998101
+#### 4. SupplyHouse.com - Loyalty Marketing Analytics Intern
+- Link: https://job-boards.greenhouse.io/supplyhouse/jobs/5796849004
 - Why it fits:
   - Remote in the United States
-  - Strong match for analytical thinking, process improvement, and stakeholder communication
-  - Good fit for a CS graduate student pivoting into analyst work
+  - Analytics-heavy internship focused on customer and segment analysis
+  - Good fit for Excel, SQL, Python, and storytelling with data
 - Source notes:
-  - Program runs June to August 2026
-  - Paid range listed at $18 to $22 per hour
-  - Application asks whether the candidate will now or in the future require visa sponsorship
+  - 10-week program from June 1, 2026 to August 7, 2026
+  - Pay listed as $20 per hour
+  - Requires work authorization in the U.S. and says the company will not sponsor work visas
 - Tailoring angle:
-  - Highlight structured thinking, documentation, collaboration, and requirements support
+  - Emphasize customer analytics, segmentation, dashboard reporting, and communication
+  - Note that remote is a plus, but check CPT/work-authorization rules carefully
 
-#### 5. WoMen of Connections Ministry - Community Data & Resource Analyst Intern
-- Link: https://careerlaunch.unlv.edu/jobs/women-of-connections-ministry-community-data-resource-analyst-intern-opt-cpt-eligible/
+#### 5. Stand Together Fellowships - Policy Data Analyst Intern
+- Link: https://jobs.lever.co/standtogether/722304ac-1db1-4f48-aa39-0d4faf10af7e
 - Why it fits:
-  - Explicitly marked OPT/CPT eligible
-  - Remote or hybrid
-  - Uses spreadsheets, research, data cleaning, reporting, and dashboards
+  - Paid internship with data analyst title
+  - U.S.-based program with policy analysis and professional development
+  - Good if you are open to mission-driven work in New York
 - Source notes:
-  - Recruitment began January 6, 2026
-  - Expires May 1, 2026
-  - Unpaid internship
+  - New York
+  - 12-week program
+  - Stipend listed as $7,500 full-time or $5,500 part-time
 - Tailoring angle:
-  - Stress Excel, SQL/Python familiarity, data cleaning, and service-oriented communication
-  - Mention interest in using data to improve access and decision-making
-
-#### 6. IDB - Data Analyst Intern
-- Link: https://jobs.iadb.org/job/IDB_-Data-Analyst-Intern/2486-en_US/
-- Why it fits:
-  - Explicit analyst title
-  - Graduate internship
-  - The listing notes that international students in the U.S. may use CPT or OPT if eligible
-- Source notes:
-  - Posting end date in search snippet: March 12, 2026 11:59 PM EST
-  - Based in Washington, D.C.
-  - Requires full-time availability June 16 to August 15, 2026
-- Tailoring angle:
-  - Lean hard into Python, Power BI-style dashboard thinking, and data cleaning/reporting
-
-### Lower-priority but relevant
-
-#### 7. Worldly - Sustainability Science Intern (Summer 2026)
-- Link: https://jobs.ashbyhq.com/worldly/8eeadeb9-a2b3-4ba5-ba14-f1127dbb329f
-- Why it fits:
-  - Remote U.S. internship
-  - In the Data and Insights department
-  - Useful fallback if pure analyst internships are thin
+  - Highlight analytical writing, data interpretation, and structured reporting
 
 ### CPT and application notes
-- CPT approval depends on your school and the employer's work setup, so "CPT-friendly" does not always mean "guaranteed CPT approval."
-- The strongest near-term targets from this pass are:
-  - CareSource Health Plan Data Analyst
-  - CareSource BI & Data Management
-  - Veeam Business Analyst Intern
-- The WoMen of Connections role is no longer in scope because it is unpaid.
-- Veeam may be a blocker if they treat CPT as future sponsorship need. That is not certain from the page, but it is a point to answer carefully with your international student advisor if needed.
+- CPT approval depends on your school and the employer's work setup, so "work authorized in the U.S." language is important to read carefully.
+- The strongest near-term targets from this live-only pass are:
+  - ZURU Data Analyst Intern
+  - ALO Data Analyst Intern
+  - Double Good Data Analyst Intern
+  - SupplyHouse.com Loyalty Marketing Analytics Intern
+- SupplyHouse.com explicitly says they will not sponsor work visas, so that one may or may not work depending on how they interpret CPT.
+
+### Explicit blockers found
+- Red Ventures - 2026 Launch Program: Business Analyst Intern
+  - Link: https://boards.greenhouse.io/embed/job_app?token=7242879
+  - Why excluded:
+    - The listing explicitly says it is not open to visa sponsorship or transfer of visa sponsorship, including candidates on F-1, OPT, STEM-OPT, or TN visa.
+
+### Additional leads to verify from student-focused boards
+- Safran - Intern, Data Analyst
+  - Source: https://www.indeed.com/q-internships-for-international-students-data-jobs.html
+  - Why interesting:
+    - Paid analyst internship
+    - Uses reporting tools, Power BI sources, Excel, and KPI monitoring
+  - Caution:
+    - Found through an aggregator, so the employer-side posting still needs verification before treating it as live
+
+- Sharp Electronics - Summer Intern, Solutions and Services, AI and Data Analytics
+  - Source: https://www.indeed.com/q-data-analyst-intern-opt-cpt-jobs.html
+  - Why interesting:
+    - Paid internship
+    - Data cleaning and analytics focus
+  - Caution:
+    - Found through an aggregator, so the employer-side posting still needs verification before treating it as live
+
+- JPMorganChase - 2026 Data Analytics/Business Intelligence/Process Automation Internship
+  - Source: https://www.indeed.com/q-data-analyst-internship-cpt-jobs.html
+  - Why interesting:
+    - Paid range shown at $22.50 to $38.46 per hour
+    - Strong alignment with analytics, BI, documentation, and process automation
+    - Good fit for a CS master's student with SQL, Python, and dashboard experience
+  - Caution:
+    - Found through an aggregator, so the employer-side posting still needs verification before treating it as live
+
+- Eversource Energy - 2026 Summer Transmission Intern, Energy Economic Analyst
+  - Source: https://www.indeed.com/q-data-analyst-intern-opt-cpt-jobs.html
+  - Why interesting:
+    - Paid range shown at $18.12 to $27.63 per hour
+    - Hybrid in Hartford, Connecticut
+    - Seeks analytics, data cleaning, visualization, and Python or SQL familiarity
+  - Caution:
+    - Analyst-adjacent rather than pure data analyst title
+    - Found through an aggregator, so the employer-side posting still needs verification before treating it as live
+
+- Toshiba Global Commerce Solutions - Data Analytics Intern
+  - Link: https://job-boards.greenhouse.io/toshibaglobalcommercesolutions/jobs/5059322007
+  - Why interesting:
+    - Employer-hosted job page appears active
+    - Uses Power BI and Tableau for reporting and dashboards
+    - Good fit for dashboard and business reporting work
+  - Caution:
+    - The listing explicitly says no visa sponsorship now or in the future
+    - That likely makes it a poor CPT target unless confirmed otherwise
 
 ### Resume bullet edits to reuse
 - Built an interactive sales performance dashboard analyzing over $10M in sales data, tracking KPIs including total sales, average sales, and peak sales to support business performance review.
