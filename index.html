@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body data-active-section="top">
+  <a class="skip-link" href="#main-content">Skip to content</a>
   <div class="site-shell">
     <header class="hero" id="top">
       <nav class="nav">
@@ -34,6 +35,8 @@
             <a href="#about" data-nav-target="about">About</a>
             <a href="#experience" data-nav-target="experience">Experience</a>
             <a href="#projects" data-nav-target="projects">Projects</a>
+            <a href="#education" data-nav-target="education">Education</a>
+            <a href="#skills" data-nav-target="skills">Skills</a>
             <a href="#contact" data-nav-target="contact">Contact</a>
           </div>
           <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark and light theme">
@@ -45,19 +48,25 @@
 
       <div class="hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow hero-eyebrow">Software Developer | Python, SQL, and Data Analysis</p>
+          <p class="eyebrow hero-eyebrow">Software Developer / Data Analyst / AI-assisted Builder</p>
           <h1>Christo Thomas</h1>
           <p class="intro">
-            I build practical digital solutions with a focus on data analysis, web
-            development, and solving real-world technical problems.
+            I build practical software and data tools that turn complex information
+            into clear, useful decisions.
           </p>
           <p class="summary">
-            My experience includes dashboards, content-driven web projects, technical
-            operations, and collaborative problem-solving.
+            My work blends Python, SQL, web development, dashboards, and technical
+            operations with a focus on reliable execution and clear communication.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="mailto:christosamthomas@gmail.com">Email Me</a>
+            <a class="button button-primary" href="#projects">View Projects</a>
             <a class="button button-secondary" href="./assets/Christo-Thomas-Resume.pdf" target="_blank" rel="noreferrer">View Resume</a>
+            <a class="button button-tertiary" href="mailto:christosamthomas@gmail.com">Email Me</a>
+          </div>
+          <div class="hero-proof" aria-label="Portfolio highlights">
+            <span><strong>2</strong> computing degrees</span>
+            <span><strong>$10M+</strong> sales data analyzed</span>
+            <span><strong>3</strong> featured projects</span>
           </div>
         </div>
 
@@ -78,23 +87,22 @@
       </div>
     </header>
 
-    <main>
+    <main id="main-content">
       <section class="section reveal" id="about">
         <div class="section-heading">
           <p class="eyebrow">About</p>
-          <h2>Blending analysis, creativity, and execution</h2>
+          <h2>Practical technical work, explained clearly</h2>
         </div>
         <div class="about-grid">
           <article class="card">
             <p>
-              I am a Master's student in Computer Science with a strong interest in
-              building useful tools, presenting information clearly, and solving
-              real-world problems with technology.
+              I am a Computer Science master's student who enjoys building useful tools,
+              organizing information, and solving real-world problems with technology.
             </p>
             <p>
-              My background includes software coursework, data storytelling, marketing
-              support, and broadcast operations, which gives me both technical and
-              communication strengths.
+              My background spans software coursework, data storytelling, marketing
+              support, and broadcast operations, giving me a mix of technical judgment,
+              communication skill, and operational calm.
             </p>
           </article>
           <article class="stats-grid">
@@ -121,7 +129,7 @@
       <section class="section reveal" id="experience">
         <div class="section-heading">
           <p class="eyebrow">Experience</p>
-          <h2>Work that sharpened both technical and operational thinking</h2>
+          <h2>Experience across technical operations, communication, and delivery</h2>
         </div>
         <div class="timeline">
           <article class="timeline-item">
@@ -175,7 +183,7 @@
       <section class="section reveal" id="projects">
         <div class="section-heading">
           <p class="eyebrow">Projects</p>
-          <h2>Projects that show how I think, build, and ship</h2>
+          <h2>Selected work with clear problems, tools, and outcomes</h2>
         </div>
         <div class="project-grid">
           <article class="project-card">
@@ -276,7 +284,7 @@
       <section class="section reveal" id="education">
         <div class="section-heading">
           <p class="eyebrow">Education</p>
-          <h2>Learning with purpose</h2>
+          <h2>Computer science foundation with practical momentum</h2>
         </div>
         <div class="timeline education-timeline">
           <article class="timeline-item education-item">
@@ -319,31 +327,35 @@
       <section class="section reveal" id="skills">
         <div class="section-heading">
           <p class="eyebrow">Skills</p>
-          <h2>Tools I can bring to a team</h2>
+          <h2>Core tools I can bring to a team</h2>
         </div>
         <div class="skills-grid">
           <article class="skill-card">
             <h3>Programming</h3>
-            <p>Python, C, SQL, HTML, CSS</p>
+            <ul class="skill-list">
+              <li>Python</li>
+              <li>C</li>
+              <li>SQL</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
           </article>
           <article class="skill-card">
             <h3>Data & Productivity</h3>
-            <p>Excel, Access, PowerPoint, Word, dashboard creation</p>
+            <ul class="skill-list">
+              <li>Excel</li>
+              <li>Access</li>
+              <li>PowerPoint</li>
+              <li>Word</li>
+              <li>Dashboard creation</li>
+            </ul>
           </article>
           <article class="skill-card">
             <h3>AI-Assisted Developer</h3>
             <p>
-              I leverage AI tools such as ChatGPT and Codex to accelerate software
-              development, assist with debugging, and generate efficient code solutions.
-            </p>
-            <p>
-              Skilled in effective prompting to guide AI tools for code generation,
-              debugging, and rapid prototyping.
-            </p>
-            <p>
-              By combining AI assistance with my own problem-solving skills, I rapidly
-              build applications, optimize workflows, and maintain code quality and
-              understanding.
+              I use tools such as ChatGPT and Codex to support debugging, code generation,
+              rapid prototyping, and workflow improvements while keeping ownership of the
+              implementation and reasoning.
             </p>
           </article>
         </div>
@@ -352,7 +364,7 @@
       <section class="section reveal contact-section" id="contact">
         <div class="contact-copy">
           <p class="eyebrow">Contact</p>
-          <h2>Let's build something useful</h2>
+          <h2>Open to internships, projects, and software-focused opportunities</h2>
           <p>
             I'm open to internships, collaborative projects, and opportunities where I can
             keep growing as a developer and analyst.

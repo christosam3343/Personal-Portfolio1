@@ -39,14 +39,8 @@ document.querySelectorAll(".reveal").forEach((section, index) => {
 function setActiveNavSection(sectionId) {
   body.setAttribute("data-active-section", sectionId);
 
-  const navSectionMap = {
-    education: "experience",
-    skills: "projects",
-  };
-  const activeNavTarget = navSectionMap[sectionId] || sectionId;
-
   navLinks.forEach((link) => {
-    const isActive = link.dataset.navTarget === activeNavTarget;
+    const isActive = link.dataset.navTarget === sectionId;
     link.classList.toggle("is-active", isActive);
     if (isActive) {
       link.setAttribute("aria-current", "page");
